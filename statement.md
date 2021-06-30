@@ -51,7 +51,19 @@ What we also had to calculate (although not explicitly stated) was our own posit
   
 ```
 
+What does this backtracking function actually do? 
+
 # Why 'if' Statements Will Not Work
+
+When implementing a backtracking algorithm recursion is almost always necessary. If you try to backtrack by using if-statements, then there is a very good chance that after a certain depth your algorithm will trap itself in a loop. 
+
+```python
+  if( no more options at intersection):
+    # go back to previous intersection
+    
+    if( no more options at this intersection either):
+      # go back to previous
+```
 
 # Placeholder
 
