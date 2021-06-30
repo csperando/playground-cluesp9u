@@ -10,6 +10,15 @@ In order to solve this maze, every time we arrive at an intersection we will pri
 
 At this point we will have to go back to our last intersection (number 3). Now that we have already tried going left, the only option available to us is to go straight. However when this is attempted we reach another dead end. Starting over at intersection number 3 we realize that we are out of options, which means we will have to **backtrack** to the previous intersection (number 2).
 
+![maze8](https://user-images.githubusercontent.com/33202952/124019184-b80bfa00-d9b6-11eb-814e-a46a07cb0b2f.png)
+
+Once again we have reached a dead end and our options at intersection number 2 have run out, so we backtrack to intersection 1. 
+
+![maze9](https://user-images.githubusercontent.com/33202952/124019278-da9e1300-d9b6-11eb-825b-aefdcd15c029.png)
+
+Then, finally, success!
+
+![maze10](https://user-images.githubusercontent.com/33202952/124019311-e5f13e80-d9b6-11eb-8a4f-c77f12565b6a.png)
 
 
 # Famous Backtracking Problems
