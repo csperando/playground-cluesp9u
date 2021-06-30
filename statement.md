@@ -24,7 +24,34 @@ For most human beings it does not take much more than a moment to identify the c
 
 ## The Algorithm
 
-First, what values did we need to keep track of in order to solve this puzzle?
+First, what values did we need to keep track of in order to solve this maze? First we stored the positions of each intersection. Next we determined what options we had at each intersection, and finally the direction(s) we chose to take at each intersection.
+
+What we also had to calculate (although not explicitly stated) was our own position as we traversed through the maze. So essentially our algorithm works a little as follows.
+
+```python
+
+  intersections = []
+  
+  while(unsolved):
+    userPosition = (row, col)
+    
+    options = []
+    getOptions(userPosition)
+    
+    if( number of options is zero):
+      # dead end reached
+      backtrack()
+    
+    elif( number of positions is one):
+      # continue
+      
+    else:
+      # intersection reached
+      intersections.append(userPosition, options)
+  
+```
+
+# Why 'if' Statements Will Not Work
 
 # Famous Backtracking Problems
 
