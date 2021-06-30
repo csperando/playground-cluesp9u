@@ -53,6 +53,20 @@ What we also had to calculate (although not explicitly stated) was our own posit
 
 # Why 'if' Statements Will Not Work
 
+# Placeholder
+
+```
+input =
+    # # # # # # # # # # # # # # # # # # # # #
+    # - - - - - - - - - # - - - - - - - - - E
+    # # # # # # # # # - # - # # # # # # # # #
+    # - - - - - - - - - # - - - - - - - - - #
+    # - # # # # # - # - # - # - # # # # # - #
+    # - # - # - # - # - # - # - # - # - # - #
+    # - - - # - - - # - - - # - - - # - - - #
+    # # # # # # # # # # S # # # # # # # # # #
+```
+
 # Famous Backtracking Problems
 
 The 8-Queens, sudoku, etc.
