@@ -22,7 +22,7 @@ Then, after going straight at our fourth and final intersection, we have reached
 
 For most human beings it does not take much more than a moment to identify the correct path through this maze. Most of us also would not "test" going left and backtracking after dead ends either. However, this demonstrates a basic backtracking algorithm that you could make in order to solve any maze regardless of its complexity. 
 
-## The Algorithm
+## The Algorithm (Pseudocode)
 
 First, what values did we need to keep track of in order to solve this maze? First we stored the positions of each intersection. Next we determined what options we had at each intersection, and finally the direction(s) we chose to take at each intersection.
 
