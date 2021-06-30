@@ -79,7 +79,7 @@ input =
     # # # # # # # # # # S # # # # # # # # # #
 ```
 
-# Famous Backtracking Problems
+# Famous Puzzles for Backtracking Practice
 
 The 8-Queens, sudoku, etc.
 
