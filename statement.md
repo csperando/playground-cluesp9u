@@ -65,10 +65,10 @@ When implementing a backtracking algorithm recursion is almost always necessary.
       # go back to previous
 ```
 
-# Placeholder
+# Example Solution
 
 ```
-input =
+input.txt
     # # # # # # # # # # # # # # # # # # # # #
     # - - - - - - - - - # - - - - - - - - - E
     # # # # # # # # # - # - # # # # # # # # #
@@ -78,6 +78,8 @@ input =
     # - - - # - - - # - - - # - - - # - - - #
     # # # # # # # # # # S # # # # # # # # # #
 ```
+
+
 
 # Famous Puzzles for Backtracking Practice
 
