@@ -18,7 +18,7 @@ Once again we have reached a dead end and our options at intersection number 2 h
 
 Then, after going straight at our fourth and final intersection, we have reached the end of the maze. success!
 
-![maze10](https://user-images.githubusercontent.com/33202952/124019311-e5f13e80-d9b6-11eb-8a4f-c77f12565b6a.png)
+![maze10](https://user-images.githubusercontent.com/33202952/124131206-90b43c00-da4d-11eb-9c14-c90d3cd82e0b.png)
 
 For most human beings it does not take much more than a moment to identify the correct path through this maze. Most of us also would not "test" going left and backtracking after dead ends either. However, this demonstrates a basic backtracking algorithm that you could make in order to solve any maze regardless of its complexity. 
 
