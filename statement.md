@@ -14,7 +14,7 @@ At this point we will have to go back to our last intersection (number 3). Now t
 
 Once again we have reached a dead end and our options at intersection number 2 have run out, so we backtrack to intersection 1. 
 
-![maze9](https://user-images.githubusercontent.com/33202952/124019278-da9e1300-d9b6-11eb-825b-aefdcd15c029.png)
+![maze9](https://user-images.githubusercontent.com/33202952/124130628-fd7b0680-da4c-11eb-8dea-434a3e28db1d.png)
 
 Then, after going straight at our fourth and final intersection, we have reached the end of the maze. success!
 
