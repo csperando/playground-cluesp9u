@@ -96,10 +96,20 @@ maze = []
 
 # iterate over every row of the input text file
 # some string manipulation may be needed to remove end-of-line characters
+i = 0
 for row in inputFile:
     line = row.split(" ")
     line[len(line)-1] = line[len(line)-1][:1]
     maze.append(line)
+
+    # get Starting and Ending positions
+    for j in range(len(line)):
+        if(line[j] == "S"):
+            start = (i, j)
+        elif(line[j] == "E"):
+            end = (i, j)
+
+    i += 1
 
 # always use close() after opening a file for i/o
 inputFile.close()
