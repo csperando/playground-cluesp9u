@@ -81,6 +81,28 @@ input.txt
     # # # # # # # # # # S # # # # # # # # # #
 ```
 
+```python
+# os is required for file input/output
+import os
+
+# use open() on the desired text file to make iterable
+path = "C:\\Path\\To\\Maze\\Input\\"
+inputFile = open(path + "input.txt", "r")
+
+# variable for storing maze info
+maze = []
+
+# iterate over every row of the input text file
+# some string manipulation may be needed to remove end-of-line characters
+for row in inputFile:
+    line = row.split(" ")
+    line[len(line)-1] = line[len(line)-1][:1]
+    maze.append(line)
+
+# always use close() after opening a file for i/o
+inputFile.close()
+```
+
 For more information on using files in python see: [File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python)
 
 # Famous Puzzles for Backtracking Practice
