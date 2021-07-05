@@ -89,4 +89,5 @@ The 8-Queens, sudoku, etc.
 
 # Additional Links
 
-[File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python)
+* [Basic Recursion in Python](https://tech.io/playgrounds/58025/basic-introduction-to-recursion-in-python)
+* [File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python)
