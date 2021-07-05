@@ -81,7 +81,7 @@ input.txt
     # # # # # # # # # # S # # # # # # # # # #
 ```
 
-For more information on using files in python see: (File I/O in Python)[google.com]
+For more information on using files in python see: [File I/O in Python](http://google.com)
 
 # Famous Puzzles for Backtracking Practice
 
