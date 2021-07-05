@@ -81,6 +81,8 @@ input.txt
     # # # # # # # # # # S # # # # # # # # # #
 ```
 
+In this example, the maze information will be stored in a list of lists. This will allow us to easily access any point in the maze (or neighboring points) using ```maze[rowIndex][ColumnIndex]```. For more information on using files in python see: [File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python)
+
 ```python
 # os is required for file input/output
 import os
@@ -103,7 +105,7 @@ for row in inputFile:
 inputFile.close()
 ```
 
-For more information on using files in python see: [File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python)
+
 
 # Famous Puzzles for Backtracking Practice
 
