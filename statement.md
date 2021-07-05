@@ -67,7 +67,7 @@ When implementing a backtracking algorithm recursion is almost always necessary.
 
 # Example Solution
 
-Below is an example of a backtracking algorithm that can be used to solve this maze. The maze is provided as an input using a text file ```input.txt```. **#** characters represent the maze borders, **-** represent open moveable spaces, and the **S** and **E** characters represent the start and exit positions respectfully. 
+Below is an example of a backtracking algorithm that can be used to solve this maze. The maze is provided as an input using a text file ```input.txt```. "**#**" characters represent the maze borders, "**-**" represent open moveable spaces, and the "**S**" and "**E**" characters represent the start and exit positions respectfully. 
 
 ```
 input.txt
@@ -89,4 +89,4 @@ The 8-Queens, sudoku, etc.
 
 # Additional Links
 
-No links et
+[File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python)
