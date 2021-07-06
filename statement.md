@@ -117,6 +117,7 @@ for row in inputFile:
 inputFile.close()
 ```
 
+We can now start writing the algorithm that will find a path through the maze. 
 
 
 # Famous Puzzles for Backtracking Practice
