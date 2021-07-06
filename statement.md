@@ -81,7 +81,7 @@ input.txt
     # # # # # # # # # # S # # # # # # # # # #
 ```
 
-In this example, the maze information will be stored in a list of lists. This will allow us to easily access any point in the maze (or neighboring points) using ```maze[rowIndex][ColumnIndex]```. For more information on using files in python see: [File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python)
+In this example, the maze information will be stored in a list of lists. This will allow us to easily access any point in the maze (or neighboring points) using ```maze[rowIndex][ColumnIndex]```. For more information on using files in python see: [File I/O in Python](https://www.google.com/?q=file%20i/o%20in%20python). When the variable ```inputFile``` is defined using open, we create a **file object**. There are three types of file objects, and this one is a **text:I/O**. These text file objects are capable of creating string objects which contain the data that we want. A simple way of accessing these strings is by using a for loop as seen below. 
 
 ```python
 # os is required for file input/output
@@ -95,9 +95,11 @@ inputFile = open(path + "input.txt", "r")
 maze = []
 
 # iterate over every row of the input text file
-# some string manipulation may be needed to remove end-of-line characters
+# some string manipulation may be needed to remove end-of-line characters depending on how your text file is formatted
 i = 0
 for row in inputFile:
+    # use split() to convert input string to a list
+    # then remove unwanted endline characters
     line = row.split(" ")
     line[len(line)-1] = line[len(line)-1][:1]
     maze.append(line)
